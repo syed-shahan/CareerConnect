@@ -1,0 +1,52 @@
+name: careerconnect
+description: "CareerConnect App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # FIREBASE
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.6.6
+
+  # IMAGE
+  image_picker: ^1.0.7
+
+  # NETWORK
+  http: ^1.6.0
+
+  # OPEN LINKS
+  url_launcher: ^6.3.0
+
+  # HTML CLEANER
+  html_unescape: ^2.0.0
+
+  # GEMINI AI
+  google_generative_ai: ^0.4.3
+
+  # RESUME PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
